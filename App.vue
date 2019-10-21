@@ -1,18 +1,14 @@
 <template>
-  <div class="layout">
-    <header>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-    </header>
-    <article>
-      <router-view></router-view>
-    </article>
-  </div>
+  <layout>
+    <router-view></router-view>
+  </layout>
 </template>
 
 <script>
+import Layout from './layout/Layout'
 import router from './router'
 export default {
   router,
+  components: { Layout },
 }
 </script>
