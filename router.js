@@ -22,8 +22,9 @@ const router = new Router({
   mode: `history`,
 })
 
+// simple way to modify document's title according to the current page!
 router.beforeEach((to, from, next) => {
-  document.title = 'Tcar-Coffee - ' + to.name
+  document.title = `Tsar-Coffee - ${to.name}`
   next()
 })
 

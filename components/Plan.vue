@@ -13,16 +13,16 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .plan {
   margin: 0.5rem auto;
   border: 2px solid grey;
   border-radius: 5px;
   padding: 1rem;
-}
 
-.plan.active {
-  border-color: black;
-  background: #ffc600;
+  &.active {
+    border-color: black;
+    background: #ffc600;
+  }
 }
 </style>
