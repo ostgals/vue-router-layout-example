@@ -5,5 +5,5 @@ Pretty simple and strightforward example of how to implement Vue.js SPA with Rou
 Directory contents:
 
 + **components** - all generic components used in SPA
-+ **layouts** - common layout for application pages
++ **layout** - common layout for application pages
 + **pages** - components of every single page (to be displayed in `<router-view />`)
