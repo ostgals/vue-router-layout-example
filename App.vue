@@ -12,3 +12,10 @@ export default {
   components: { Layout },
 }
 </script>
+
+<style>
+body {
+  background: paleturquoise;
+  padding: 1rem;
+}
+</style>

@@ -6,18 +6,25 @@ const About = () => import(`./pages/About.vue`)
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: Home,
     },
     {
       path: '/about',
-      name: 'about',
+      name: 'About',
       component: About,
     },
   ],
   mode: `history`,
 })
+
+router.beforeEach((to, from, next) => {
+  document.title = 'Tcar-Coffee - ' + to.name
+  next()
+})
+
+export default router
