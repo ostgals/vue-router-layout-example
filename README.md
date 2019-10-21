@@ -1,6 +1,6 @@
 # vue-router-layout-example
 
-Pretty simple and strightforward example of how to implement Vue.js SPA with Router and general application layout.
+Pretty simple and straightforward example of how to implement Vue.js SPA with Router and general application layout.
 
 Directory contents:
 
